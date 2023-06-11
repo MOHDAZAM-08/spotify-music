@@ -41,6 +41,33 @@ nav ul li {
     font-size: 1.8rem;
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    nav {
+        font-size: 1.4rem; /* Adjust font size for smaller screens */
+    }
+
+    nav ul {
+        justify-content: center; /* Center align the navigation items */
+    }
+
+    .brand {
+        font-size: 1.4rem; /* Adjust font size for smaller screens */
+    }
+
+    .brand img {
+        width: 30px; /* Adjust image size for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
 .container {
     min-height: 60vh;
     background-color: black;
@@ -87,6 +114,33 @@ nav ul li {
 
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .container {
+        width: 80%; /* Adjust the width to fit the smaller screens */
+        padding: 20px; /* Adjust the padding for smaller screens */
+    }
+
+    .bottom {
+        height: 150px; /* Allow the height to adjust based on content */
+        padding: 20px; /* Adjust the padding for smaller screens */
+        border-radius: 6% 6% 0 0;
+
+        background-color: rgba(0, 0, 0, 0.907);
+    }
+
+    .icons {
+        margin-top: 10px; /* Adjust the margin for smaller screens */
+    }
+
+    #myProgressBar {
+        width: 100%; /* Adjust the width to fill the container */
+    }
+
+    .SongItemContainer {
+        margin-top: 15px; /* Adjust the margin for smaller screens */
+    }
+}
+
 .SongItem {
     height: 50px;
     display: flex;
@@ -128,4 +182,29 @@ nav ul li {
     align-items: center;
     opacity: 0;
     transition: opacity 0.4s ease-in;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .SongItem {
+        width: 90%; /* Adjust the width to fit the smaller screens */
+        margin: 5px 0; /* Adjust the margin for smaller screens */
+    }
+
+    .SongItem img {
+        width: 40px; /* Adjust the image size for smaller screens */
+    }
+
+    .songName {
+        padding: 12px 20px; /* Adjust the padding for smaller screens */
+    }
+
+    .timetamp {
+        margin: 0 10px; /* Adjust the margin for smaller screens */
+    }
+
+    .songInfo {
+        left: 12vw; /* Adjust the position for smaller screens */
+        margin-top: 100px; /* Adjust the margin for smaller screens */
+    }
 }
