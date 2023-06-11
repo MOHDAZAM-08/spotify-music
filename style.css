@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 9px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 20px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15PX;
+    padding: 0 31px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 0 12px;
+}
+
+#myProgressBar {
+    width: 90vw;
+    cursor: pointer;
+}
+
+.SongItemContainer {
+    margin-top: 23px;
+
+}
+
+.SongItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 34vw;
+    color: black;
+    margin: 7px 5px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.SongItem img {
+    width: 50px;
+    border-radius: 34px;
+    left: 0;
+    
+}
+.songName{
+    display: flex;
+    align-items: center;
+    padding: 12px 43px;
+}
+
+.timetamp {
+    display: flex;
+    align-items: initial;
+    object-fit: cover;
+    margin: 0 23px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 5vw;
+    margin-top: 22px;
+}
+
+.songInfo img{
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
